@@ -22,5 +22,5 @@ jobs:
       - run: zig run ./src/main.zig
       - run: rustup default stable
       - run: cargo update
-      - run: cargo install --locked cargo-zigbuild,
+      - run: cargo install --locked cargo-zigbuild
       - run: cargo zigbuild --release
